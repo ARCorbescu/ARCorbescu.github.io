@@ -21,7 +21,7 @@ mood.addEventListener("click", function (){
 function redirectToPage(page) {
     switch (page) {
       case 'page1':
-        window.location.href = "https://example.com/page1";
+        window.location.href = "https://coursera.org/verify/4DEKRPK83M48";
         break;
       case 'page2':
         window.location.href = "https://example.com/page2";
