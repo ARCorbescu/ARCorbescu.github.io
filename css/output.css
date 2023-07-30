@@ -1399,10 +1399,37 @@ video {
   color: rgb(82 82 82 / var(--tw-text-opacity));
 }
 
+
+h2 {
+  
+  color: white;
+  font-size: 12px;
+  text-align: center; /* Center the text horizontally */
+  font-family: 'Roboto', sans-serif;
+}
+
+.custom-button {
+  color: white;
+  font-size: 12px;
+  text-transform: lowercase;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Adjust the margin to your desired spacing */
+}
+
 .text-gray-500 {
   --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
+  color: rgb(107, 114, 128, var(--tw-text-opacity));
 }
+
+.text-gray-5000 {
+  --tw-text-opacity: 1;
+  color: rgb(107, 114, 128, var(--tw-text-opacity));
+}
+
 
 .text-white {
   --tw-text-opacity: 1;
@@ -1438,6 +1465,16 @@ video {
 
 .svg-fill {
   fill: rgb(74, 108, 247);
+}
+
+.svg-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Optional: Add some spacing */
+.svg-container svg {
+  margin: 0 auto;
 }
 
 .hover\:bg-opacity-30:hover {
